@@ -1,8 +1,9 @@
 /* Geral */
 
-body{
+body, ul{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
 }
 
 a, a:visited{
