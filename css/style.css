@@ -120,3 +120,24 @@ aside{
     min-width: 460px;
     margin-top: 50px;
 }
+
+/* conteudo principal */
+
+#results{
+    color: #70757a;
+}
+
+.search-result-box{
+    margin-bottom: 10px;
+}
+
+.container .ref-link{
+    display: inline-block;
+    position: relative;
+    width: auto;
+    font-size: 14px;
+    color: #3c4043;
+    text-decoration: none;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
