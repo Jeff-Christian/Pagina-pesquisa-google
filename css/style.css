@@ -141,3 +141,16 @@ aside{
     margin-bottom: 8px;
     margin-top: 15px;
 }
+
+/* como fazer um triangulo direto no CSS */
+
+.triangle{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #3c4043;
+    top: 7px;
+    right: -15px;
+}
