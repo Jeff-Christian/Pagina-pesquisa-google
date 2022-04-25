@@ -238,14 +238,24 @@ aside{
 
 /* Galeria aside */
 
+aside{
+    background: #fff;
+    border-radius: 8px;
+    padding: 0 0 16px 0;
+    border: 1px solid #dadce0;
+    min-width: 454px;
+}
+
 #gallery-box{
     position: relative;
     height: 186px;
 }
 
 #first-img{
-    width: 200px;
-    border-top-left-radius: 10px;
+    height: 100%;
+    width: 160px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 #gallery{
@@ -280,9 +290,27 @@ aside{
 #gallery-img4{
     background-image: url(../img/pokemon5.jpg);
 }
+
 #gallery-img5{
     background-image: url(../img/pokemon6.jpg);
 }
+
 #gallery-img6{
     background-image: url(../img/pokemon7.jpg);
+}
+
+#moreimg-btn{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    font-size: 13px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    border-top-left-radius: 5px;
+}
+
+#moreimg-btn span{
+    margin-right: 5px;
 }
