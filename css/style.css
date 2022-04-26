@@ -315,6 +315,8 @@ aside{
     margin-right: 5px;
 }
 
+/* caixa nome pesquisa */
+
 #name-box{
     border-bottom: 1px solid #dadce0;
     padding: 0 15px;
@@ -333,4 +335,20 @@ aside{
     font-size: 14px;
     margin: 0;
     margin-bottom: 20px;
+}
+
+.about-text{
+    font-size: 14px;
+    color: #4d5156;
+    line-height: 1.57;
+    padding: 0 15px;
+}
+
+.about-text a{
+    text-decoration: none;
+}
+
+.about-text span{
+    color: #202124;
+    font-weight: bold;
 }
