@@ -255,7 +255,6 @@ aside{
     height: 100%;
     width: 160px;
     border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
 }
 
 #gallery{
@@ -273,6 +272,7 @@ aside{
     height: 50%;
     background-size: cover;
     background-position: center;
+    border-top-right-radius: 8px;
 }
 
 #gallery-img1{
@@ -313,4 +313,24 @@ aside{
 
 #moreimg-btn span{
     margin-right: 5px;
+}
+
+#name-box{
+    border-bottom: 1px solid #dadce0;
+    padding: 0 15px;
+}
+
+#name{
+    font-size: 30px;
+    color: #202124;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+#role{
+    color: #70757a;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 20px;
 }
